@@ -112,3 +112,79 @@
 .footer-section ul {
     margin-top: 0; 
 }
+
+.cookie-banner{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    pointer-events: none; /* permite que los clics pasen a través del banner */
+
+    background-color: #b600983e !important;
+    color: white !important;
+}
+
+.cookie-content{
+    pointer-events: auto; /* permite que los clics interactúen con el contenido del banner */
+    width: min(1100px, 100%); /* limita el ancho del contenido a 1100px o al 100% del ancho de la pantalla, lo que sea menor */
+    background-color: #b60098 !important;
+    color: white !important;
+    border: 1px solid #b60098;
+    border-radius: 15px;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+.cookie-content p{
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4; /* aumenta el espacio entre líneas para mejorar la legibilidad */
+    color: white !important;
+}
+
+.cookie-link{
+   text-decoration: underline;
+   color: wheat !important;
+   margin-left: 6px;
+}
+.cookie-actions{
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0; /* evita que los botones se reduzcan de tamaño cuando el espacio es limitado */
+    background-color: #b60098 !important;
+ }
+
+ .cookie-btn{
+  border:0;
+  border-radius:10px;
+  padding:10px 14px;
+  font-size:14px;
+  cursor:pointer;
+  transition:transform .06s ease, opacity .2s ease;
+}
+.cookie-btn:active{
+    transform:scale(.95);
+}
+
+.cookie-btn--primary{
+  background:#39aee1;
+  color:#111;
+}
+
+.cookie-btn--ghost{
+  background:transparent;
+  color:#ffffff;
+  border:1px solid #3a3a3a;
+  opacity:.9;
+}
+
+.cookie-btn--ghost:hover{
+  opacity:1;
+}
