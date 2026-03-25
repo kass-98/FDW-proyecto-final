@@ -5,10 +5,10 @@ Página web de una librería ficticia llamada “Librería Diente de León”, d
 ![Vista móvil](img-evidencias/mobile.png)
 
 ### Vista desktop
-![Vista móvil](img-evidencias/desktop.png)
+![Vista desktop](img-evidencias/desktop.png)
 
 ### GitHub Pages activo
-![Vista móvil](img-evidencias/pages.png)
+![Vista GitHub Pages](img-evidencias/pages.png)
 
 ## 📚 Aprendizajes
 
