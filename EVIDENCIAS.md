@@ -1,5 +1,5 @@
 # Evidencias del Proyecto
-Página web de una librería ficticia llamada “Librería Diente de León”, donde se aplicó conocimientos de HTML, CSS y diseño responsivo.
+Página web de una librería llamada “Librería Diente de León”, donde se aplicó conocimientos de HTML, CSS y diseño responsivo.
 
 ### Vista móvil
 ![Vista móvil](img-evidencias/mobile.png)
